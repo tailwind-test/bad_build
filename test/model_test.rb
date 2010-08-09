@@ -1,7 +1,7 @@
 require 'test/unit'
 
 class GoodTest < Test::Unit::TestCase
-  def test_good
-    assert true
+  def test_bad
+    assert false
   end
 end
